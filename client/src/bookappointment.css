@@ -1,0 +1,80 @@
+.full-height {
+  height: 100%;
+}
+
+.appointment-content {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.txtbox {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  box-sizing: border-box;
+  border: 2px solid #007BFF; /* Updated border color */
+  border-radius: 8px; /* Rounded corners */
+  background-color: #E8F0FE; /* Light blue background for inputs */
+}
+
+.button {
+  background-color: #007BFF; /* Vibrant blue */
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd; /* Light grey border */
+}
+
+td {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(odd) {
+  background-color: #f9f9f9; /* Zebra striping for rows */
+}
+
+tr:hover {
+  background-color: #DCF7C5; /* Light green on hover for rows */
+}
+
+h3 {
+  text-align: center;
+  color: #007BFF; /* Match the button color for consistency */
+}
+
+.txtbox[type="date"],
+.txtbox[type="time"] {
+  width: 95%;
+}
+
+/* Additional styling for focus on inputs */
+.txtbox:focus {
+  border-color: #0056b3;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+/* Styling for disabled buttons to make it visually distinct */
+.button:disabled,
+.button[disabled]{
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

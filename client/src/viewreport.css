@@ -1,0 +1,33 @@
+.full-height {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.report-content {
+    padding: 20px;
+    border: 1px solid #35b2cb;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reports-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.reports-table th,
+.reports-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.reports-table th {
+    background-color: #f2f2f2;
+}
+
+.reports-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
